@@ -22,7 +22,7 @@ fn main() {
             || {
                 unsafe {
                     for _ in 0..5 {
-                        (*channel_ptr).set_text(&*"!".to_string(), MaybeId::Node(NodeId(0)));
+                        (*channel_ptr).set_text("!", MaybeId::Node(NodeId(0)));
                     }
 
                     // execute the queued operations

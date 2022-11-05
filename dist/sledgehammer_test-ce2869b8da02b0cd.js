@@ -203,7 +203,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('sledgehammer_test-8feb3e3502682210_bg.wasm', import.meta.url);
+        input = new URL('sledgehammer_test-ce2869b8da02b0cd_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 

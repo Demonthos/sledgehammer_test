@@ -111,6 +111,7 @@ dependencies = [
 [[package]]
 name = "sledgehammer"
 version = "0.1.0"
+source = "git+https://github.com/demonthos/sledgehammer?branch=cache_strings#1c17a6294b0d92087af04e5088019abe4e077ba3"
 dependencies = [
  "farmhash",
  "js-sys",
